@@ -43,7 +43,7 @@ export default function Array({ model, tilt, capacity, isActive, onDelete, isEdi
                         className="checkbox"
                         name="isActive"
                         checked={isActiveValue}
-                        readOnly={!isEditable}
+                        disabled={!isEditable}
                         onChange={(e) => setIsActiveValue(e.target.checked)}
                     />
                     {isEditable && (
