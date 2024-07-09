@@ -1,8 +1,54 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Test technique Likewatt
 
-Currently, two official plugins are available:
+À la suite d'un entretien pour une alternance, je devais réaliser un test technique dans le cadre du processus de recrutement.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+
+
+## Objectif du test
+
+Permettre de voir si je suis capable de créer un composant présentable et si je peux anticiper le comportement de l'utilisateur.
+## Fait avec
+
+React → https://react.dev/learn
+
+## ✔ Installation
+
+```bash
+  npm create vite@latest
+```
+
+```bash
+  choisir React + Javascript
+```
+
+```bash
+  npm install
+```
+
+```bash
+  npm run dev
+```
+
+
+
+
+
+
+## Première partie
+
+### 📚 API Reference
+
+https://apitest.likewatt-infra.com/entry-test/2
+
+Construire un composant tableau en récupérant les données de l'API, avec une partie non éditable et une autre éditable reprenant les données de la partie de gauche.
+
+## Deuxième partie
+
+### 📚 API Reference
+
+[Voir la documentation](https://www.weatherbit.io/api/weather-forecast-16-day)
+
+Créer un composant affichant la météo de la position actuelle sur 5 jours automatiquement.
